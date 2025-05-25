@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Wordswiz/static/css/main.9429dd8e.css",
-    "main.js": "/Wordswiz/static/js/main.c70d2c0d.js",
+    "main.js": "/Wordswiz/static/js/main.d654201a.js",
     "static/js/453.c525d7c0.chunk.js": "/Wordswiz/static/js/453.c525d7c0.chunk.js",
     "index.html": "/Wordswiz/index.html",
     "main.9429dd8e.css.map": "/Wordswiz/static/css/main.9429dd8e.css.map",
-    "main.c70d2c0d.js.map": "/Wordswiz/static/js/main.c70d2c0d.js.map",
+    "main.d654201a.js.map": "/Wordswiz/static/js/main.d654201a.js.map",
     "453.c525d7c0.chunk.js.map": "/Wordswiz/static/js/453.c525d7c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9429dd8e.css",
-    "static/js/main.c70d2c0d.js"
+    "static/js/main.d654201a.js"
   ]
 }
