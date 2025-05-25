@@ -1,0 +1,245 @@
+/* Base navbar styles */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e293b;
+  padding: 0.75rem 1rem;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo styling */
+.nav-bar h1,
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  user-select: none;
+}
+.logo a{
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* Desktop menu */
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.desktop-menu li {
+  list-style: none;
+}
+
+.desktop-menu li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.desktop-menu li a:hover {
+  color: #60a5fa;
+}
+
+/* Dark mode toggle button */
+.toggle-btn {
+  display: inline-block;
+  background: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  user-select: none;
+  font-size: 1rem;
+}
+
+.toggle-btn:hover,
+.toggle-btn:focus {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+  .nav-bar {
+    padding: 1rem 2rem;
+  }
+
+  .desktop-btn {
+    margin-left: 1.5rem;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .desktop-menu {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .desktop-btn {
+    margin-top: 1rem;
+  }
+}
+/* Base navbar styles */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e293b;
+  padding: 0.75rem 1rem;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo styling */
+.nav-bar h1,
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  user-select: none;
+}
+
+/* Desktop menu */
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.desktop-menu li {
+  list-style: none;
+}
+
+.desktop-menu li a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+.desktop-menu li a:hover {
+  color: #60a5fa;
+}
+
+/* Toggle button */
+.toggle-btn {
+  display: inline-block;
+  background: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  user-select: none;
+  font-size: 1rem;
+}
+
+.toggle-btn:hover,
+.toggle-btn:focus {
+  background-color: #2563eb;
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Hamburger Icon (Mobile Only) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Mobile dropdown menu */
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  right: 1rem;
+  background-color: #1e293b;
+  border-radius: 8px;
+  width: 180px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 1rem;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  place-items: center;
+}
+
+.mobile-menu li {
+  list-style: none;
+}
+
+.mobile-menu li a,
+.mobile-menu li button {
+  color: white;
+  font-weight: 600;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-menu li a:hover,
+.mobile-menu li button:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+/* Desktop styles only */
+@media (min-width: 769px) {
+  .desktop-menu {
+    display: flex;
+  }
+
+  .desktop-btn {
+    display: inline-block;
+    margin-left: 1.5rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none !important;
+  }
+}
+
+/* Mobile styles only */
+@media (max-width: 768px) {
+  .desktop-menu,
+  .desktop-btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
