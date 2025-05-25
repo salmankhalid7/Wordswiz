@@ -17,7 +17,7 @@ export default function Navbar({ mystyle, btntext, toggle_btn }) {
 
   return (
     <div className="nav-bar" style={mystyle}>
-      <h1 className="logo"><a href="/">Wordwiz</a></h1>
+    <h1 className="logo"><Link to="/">Wordwiz</Link></h1>
 
       {/* Render desktop menu and toggle btn only on desktop */}
       {isDesktop && (
