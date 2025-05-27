@@ -33,17 +33,13 @@
 
 ## 📸 Preview
 
-To provide a visual representation of your application, you can include screenshots or GIFs. Here’s how to do it:
-
-1. **Take Screenshots**: Use your operating system's screenshot tool to capture images of your application in action.
-2. **Save Images**: Save the images in a folder within your project, typically in a directory named `assets` or `images`.
-3. **Add Images to README**: Use Markdown syntax to include images in your `README.md`. For example:
-
    ```markdown
-   ![WordsWiz Preview](./assets/preview.png)
-   ```
+   ![WordsWiz Preview](./src/images/Home.png)
+   ![WordsWiz Preview](./src/images/About.png)
+   ![WordsWiz Preview](./src/images/Home(mobile).png)
+   ![WordsWiz Preview](./src/images/About(mobile).png)
 
-   Replace `./assets/preview.png` with the path to your image file.
+   ```
 
 ---
 
