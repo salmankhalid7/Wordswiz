@@ -100,7 +100,7 @@ const handleCopy = () => {
     <div style={mystyle}>
       <div className="form">
         <h1 style={mystyle}>Enter Your Text Here:</h1>
-        <textarea name="textbox" id="text-box" value={text} onChange={handleonchange} cols={200} rows={10} style={{mystyle,color:color}} placeholder="Enter text here:">Enter text here:</textarea>
+        <textarea name="textbox" id="text-box" value={text} onChange={handleonchange} cols={170} rows={10} style={{mystyle,color:color}} placeholder="Enter text here:">Enter text here:</textarea>
         <br /> 
         <button onClick={handleuppercase}>Convert to UpperCase</button>
         <button onClick={handlelowercase}>Convert to LowerCase</button>
